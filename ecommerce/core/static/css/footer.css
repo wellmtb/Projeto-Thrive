@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.footer {
+  position: relative;
+  padding: 30px;
+  background-color: #073165;
+  height: 80px;
+}

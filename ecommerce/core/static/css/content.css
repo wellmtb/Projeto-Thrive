@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slide-promo {
+	margin-top: 10px;
+  	width: 100%;
+	height: 150px;
+	border: 1px solid #ccc;
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: black;
+}
+
+#product-title {
+	margin-top: 10px;
+  	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#product-title .title {
+	font-weight: 500;
+	font-size: 2em;
+	color: #454545;
+}
+
+#product-title .sub-title {	
+	padding:1px 0px 10px 0px;
+	font-weight: 500;
+	font-size: 1.2em;
+	color: #454545;
+}
+
+#product-title .description {
+	font-size: 1em;
+	color: #454545;
+}
+
+#product {
+	padding: 5px;
+  	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+}
+
+#product .image {
+	width: 50%;
+	height: auto;
+	border: 1px solid #ccc;
+
+}
+
+#product .info {
+	width: 50%;
+	height: auto;
+	border: 1px solid #ccc;
+}
+
+#conteudo_pagina {
+	display: flex;
+	width: 100%;
+	height: 100;
+	border: 1px solid #ccc;
+}
